@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot 入门教程 - 我的博客</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">我的博客</div>
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../categories.html">分类</a></li>
+                <li><a href="../tags.html">标签</a></li>
+                <li><a href="../about.html">关于</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-content">
+            <div class="post-meta">
+                <span class="category">后端</span>
+                <span class="date">2026-03-21</span>
+            </div>
+
+            <h1>Spring Boot 入门教程</h1>
+
+            <h2>什么是 Spring Boot</h2>
+            <p>Spring Boot 是 Spring 生态系统中的一个项目，它简化了 Spring 应用的开发过程，提供了自动配置和约定优于配置的特性。</p>
+
+            <h2>主要特点</h2>
+            <ul>
+                <li>独立运行的 Spring 应用</li>
+                <li>内嵌 Servlet 容器</li>
+                <li>提供自动配置</li>
+                <li>没有代码生成和 XML 配置</li>
+            </ul>
+
+            <h2>快速开始</h2>
+            <p>创建一个简单的 REST API：</p>
+            <pre><code>@RestController
+public class HelloController {
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello, World!";
+    }
+}</code></pre>
+
+            <div class="tags">
+                <a href="../tags.html#Spring Boot">Spring Boot</a>
+                <a href="../tags.html#Java">Java</a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 我的博客. Powered by GitHub Pages</p>
+    </footer>
+</body>
+</html>

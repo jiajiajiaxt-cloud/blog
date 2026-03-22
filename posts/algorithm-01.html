@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快速排序算法详解 - 我的博客</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">我的博客</div>
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../categories.html">分类</a></li>
+                <li><a href="../tags.html">标签</a></li>
+                <li><a href="../about.html">关于</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-content">
+            <div class="post-meta">
+                <span class="category">算法</span>
+                <span class="date">2026-03-22</span>
+            </div>
+
+            <h1>快速排序算法详解</h1>
+
+            <h2>算法简介</h2>
+            <p>快速排序（Quick Sort）是一种高效的排序算法，由Tony Hoare在1960年提出。它采用分治策略，平均时间复杂度为 O(n log n)。</p>
+
+            <h2>基本思想</h2>
+            <p>快速排序的核心思想是：</p>
+            <ol>
+                <li>选择一个基准元素（pivot）</li>
+                <li>将数组分成两部分：小于基准的和大于基准的</li>
+                <li>递归地对这两部分进行排序</li>
+            </ol>
+
+            <h2>代码实现</h2>
+            <pre><code>def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+
+    return quicksort(left) + middle + quicksort(right)</code></pre>
+
+            <h2>复杂度分析</h2>
+            <p>最佳时间复杂度：O(n log n)</p>
+            <p>平均时间复杂度：O(n log n)</p>
+            <p>最坏时间复杂度：O(n²)</p>
+            <p>空间复杂度：O(log n)</p>
+
+            <div class="tags">
+                <a href="../tags.html#排序">排序</a>
+                <a href="../tags.html#数据结构">数据结构</a>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 我的博客. Powered by GitHub Pages</p>
+    </footer>
+</body>
+</html>
