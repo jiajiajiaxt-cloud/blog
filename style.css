@@ -7,14 +7,14 @@
 
 :root {
  /* 主文字（保证可读性） */
- --text-primary: #2D2A26;
- --text-secondary: #5A554F;
+ --text-primary: #4A3A3D;
+ --text-secondary: #7A5F63;
 
- /* 主强调色（取自黄色但压暗） */
- --accent-color: #C89B1D;
+ /* 主强调色（粉色） */
+ --accent-color: #E891A7;
 
- /* 次强调色（呼应蓝色地毯） */
- --accent-secondary: #2F7F8A;
+ /* 次强调色（淡紫色） */
+ --accent-secondary: #B794C8;
 
  /* 卡片背景（关键！） */
  --card-bg: rgba(255, 255, 255, 0.85);
@@ -68,7 +68,7 @@ nav {
 .logo {
  font-size: 1.5rem;
  font-weight: 600;
- color: #3A342B;
+ color: #4A3A3D;
 }
 
 nav ul {
@@ -109,7 +109,7 @@ main {
 
 .hero h1 {
  font-size: 2.5rem;
- color: #3A342B;
+ color: #4A3A3D;
  font-weight: 600;
  margin-bottom: 1rem;
 }
@@ -122,7 +122,7 @@ main {
 /* 文章卡片 */
 .articles h2 {
  margin-bottom: 1.5rem;
- color: #3A342B;
+ color: #4A3A3D;
  font-weight: 600;
 }
 
@@ -166,7 +166,7 @@ main {
 }
 
 .post-card h3 a {
- color: #3A342B;
+ color: #4A3A3D;
  text-decoration: none;
  font-size: 1.3rem;
  font-weight: 600;
@@ -189,7 +189,7 @@ main {
 }
 
 .tags a {
- background: rgba(200, 155, 29, 0.15);
+ background: rgba(232, 145, 167, 0.15);
  color: var(--accent-color);
  padding: 0.25rem 0.75rem;
  border-radius: 15px;
@@ -215,7 +215,7 @@ main {
 }
 
 .category-section h2 {
- color: #3A342B;
+ color: #4A3A3D;
  font-weight: 600;
  margin-bottom: 1rem;
  padding-bottom: 0.5rem;
@@ -265,14 +265,14 @@ main {
 }
 
 .tag-cloud h2 {
- color: #3A342B;
+ color: #4A3A3D;
  font-weight: 600;
  margin-bottom: 1.5rem;
 }
 
 .tag-item {
  display: inline-block;
- background: rgba(200, 155, 29, 0.15);
+ background: rgba(232, 145, 167, 0.15);
  color: var(--accent-color);
  padding: 0.5rem 1rem;
  margin: 0.5rem;
@@ -298,18 +298,18 @@ main {
 }
 
 .post-content h1 {
- color: #3A342B;
+ color: #4A3A3D;
  font-weight: 600;
  margin-bottom: 1rem;
  font-size: 2rem;
 }
 
 .post-content h2 {
- color: #3A342B;
+ color: #4A3A3D;
  font-weight: 600;
  margin: 2rem 0 1rem 0;
  padding-bottom: 0.5rem;
- border-bottom: 2px solid rgba(200, 155, 29, 0.3);
+ border-bottom: 2px solid rgba(232, 145, 167, 0.3);
 }
 
 .post-content p {
@@ -319,7 +319,7 @@ main {
 }
 
 .post-content pre {
- background: #3A342B;
+ background: #4A3A3D;
  color: #f8f8f2;
  padding: 1rem;
  border-radius: 8px;
@@ -328,7 +328,7 @@ main {
 }
 
 .post-content code {
- background: rgba(200, 155, 29, 0.15);
+ background: rgba(232, 145, 167, 0.15);
  padding: 0.2rem 0.4rem;
  border-radius: 3px;
  font-family: 'Courier New', monospace;
